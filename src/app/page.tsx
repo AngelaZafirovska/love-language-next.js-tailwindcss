@@ -129,7 +129,7 @@ const LandingPage = () => {
         </div>
 
         {/* Content Layer */}
-        <label className="font-raleway font-bold flex justify-center text-center text-[32px] leading-[36px] md:text-[56px] md:leading-[66px] tracking-[-0.03em] md:mb-[40px] mb-[26px] z-10">
+        <label className="font-raleway font-bold flex justify-center text-center text-[32px] leading-[36px] md:text-[56px] md:leading-[66px] tracking-[-0.03em] md:mb-[40px] mb-[26px] z-10 text-[#0E2432]">
           The Evolution <br />of Love Language
         </label>
 
