@@ -10,25 +10,26 @@ const LandingPage = () => {
       <div className="hero-section relative w-full m-0 p-0 bg-white md:pb-[75px]">
         <div className="relative z-0">
           <Image
-            src="/images/gradient-desktop.svg"
+            src="/images/gradient-desktop.png"
             alt="Desktop Gradient"
             width={890}
             height={830}
-            className="absolute right-[0px] top-[0px] w-[890px] h-[830px] hidden md:block z-0"
+            className="absolute right-[0px] top-[0px] w-[890px] h-auto md:h-auto hidden md:block z-0"
+            priority
           />
           <Image
             src="/images/photos-desktop.svg"
             alt="Desktop Photos"
             width={620.27}
             height={638.12}
-            className="absolute right-[78.33px] top-[145.15px] w-[620.27px] h-[638.12px] hidden md:block z-0"
+            className="absolute right-[78.33px] top-[145.15px] w-[620.27px] h-auto md:h-auto hidden md:block z-10"
           />
           <Image
             src="/images/effects-desktop.svg"
             alt="Desktop Effects"
             width={271.2}
             height={207}
-            className="absolute right-[395px] top-[121px] w-[271.2px] h-[207px] hidden md:block z-0"
+            className="absolute right-[395px] top-[121px] w-[271.2] h-auto md:h-auto hidden md:block z-5"
           />
         </div>
         <div className="flex flex-row items-center justify-between px-[16px] py-[11px] md:px-[82px] md:py-[30px]">
@@ -104,14 +105,14 @@ const LandingPage = () => {
             alt="Mobile photos"
             width={340}
             height={350}
-            className="absolute top-0 w-full px-[17px] z-10"
+            className="absolute top-0 w-full h-auto px-[17px] z-10"
           />
           <Image
             src="/images/gradient-mobile.svg"
             alt="Mobile Gradient"
             width={360}
             height={330}
-            className="w-full opacity-90 z-0"
+            className="w-full h-auto opacity-90 z-0"
           />
         </div>
       </div>
@@ -119,17 +120,18 @@ const LandingPage = () => {
         {/* Background Image Layer */}
         <div className="absolute inset-0 flex justify-center items-center z-10">
           <Image
-            src="/images/evolution-desktop.svg"
+            src="/images/evolution-desktop.png"
             alt="Desktop Gradient"
             width={944}
             height={873}
-            className="opacity-90 hidden md:block mt-[172px]"
-            style={{ height: "calc(100% - 252px)" }}
+            className="hidden md:block mt-[172px] w-auto z-10"
+            style={{ height: "calc(100% - 60px)" }}
+            priority
           />
         </div>
 
         {/* Content Layer */}
-        <label className="font-raleway font-bold flex justify-center text-center text-[32px] leading-[36px] md:text-[56px] md:leading-[66px] tracking-[-0.03em] md:mb-[40px] mb-[26px] z-10 text-[#0E2432]">
+        <label className="font-raleway font-bold flex justify-center text-center text-[32px] leading-[36px] md:text-[56px] md:leading-[66px] tracking-[-0.03em] md:mb-[40px] mb-[26px] z-10 text-[#0E2432] z-20">
           The Evolution <br />of Love Language
         </label>
 
@@ -140,7 +142,7 @@ const LandingPage = () => {
             width={228}
             height={428}
             className="opacity-90 block md:hidden absolute right-[-16px] z-10"
-            style={{ top: 'calc(25% - 212px)' }}
+            style={{ top: 'calc(25 - 252px)' }}
           />
           <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px] z-20">
             <Image
