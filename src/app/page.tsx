@@ -117,7 +117,7 @@ const LandingPage = () => {
       </div>
       <div className="evolution-section relative w-full m-0 p-0 bg-white px-[16px] md:py-[80px] md:px-[82px] mb-[60px] md:mb-[0px]">
         {/* Background Image Layer */}
-        <div className="absolute inset-0 flex justify-center items-center -z-10">
+        <div className="absolute inset-0 flex justify-center items-center z-10">
           <Image
             src="/images/evolution-desktop.svg"
             alt="Desktop Gradient"
@@ -133,16 +133,16 @@ const LandingPage = () => {
           The Evolution <br />of Love Language
         </label>
 
-        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 z-10">
+        <div className="relative grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-5 z-20">
           <Image
             src="/images/evolution-mobile-1.svg"
             alt="Evolution Mobile 1"
             width={228}
             height={428}
-            className="opacity-90 block md:hidden absolute right-[-16px] -z-10"
+            className="opacity-90 block md:hidden absolute right-[-16px] z-10"
             style={{ top: 'calc(25% - 212px)' }}
           />
-          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px]">
+          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px] z-20">
             <Image
               src="/images/origin.svg"
               alt="Heart Icon"
@@ -150,14 +150,14 @@ const LandingPage = () => {
               height={56}
               className="w-[48px] h-[48px] md:w-[56px] md:h-[56px] mb-[12px] md:mb-[20px]"
             />
-            <label className="block font-raleway font-bold text-[#0E2432] text-[22px] md:text-[26px] leading-[26px] md:leading-[30px] mb-[12px] z-10">
+            <label className="block font-raleway font-bold text-[#0E2432] text-[22px] md:text-[26px] leading-[26px] md:leading-[30px] mb-[12px]">
               The Origins of Love Languages
             </label>
-            <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
+            <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]">
               Over 30 years ago, Dr. Gary Chapman introduced the &apos;<span className="font-sans">5</span> Love Languages&apos; test, helping millions improve their relationships. However, this concept originated in the <span className="font-sans">1980</span>s and is now viewed as limited by some, primarily catering to married, heterosexual, Christian couples.
             </label>
           </div>
-          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px]">
+          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px] z-20">
             <Image
               src="/images/limitation.svg"
               alt="Heart Icon"
@@ -165,10 +165,10 @@ const LandingPage = () => {
               height={56}
               className="w-[48px] h-[48px] md:w-[56px] md:h-[56px] mb-[12px] md:mb-[20px]"
             />
-            <label className="block font-raleway font-bold text-[#0E2432] text-[22px] md:text-[26px] leading-[26px] md:leading-[30px] mb-[12px] z-10">
+            <label className="block font-raleway font-bold text-[#0E2432] text-[22px] md:text-[26px] leading-[26px] md:leading-[30px] mb-[12px]">
               Limitations of the Original Love Languages
             </label>
-            <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
+            <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]">
               The original <span className="font-sans">5</span> Love Languages were created for a specific demographic and time. But relationships today are diverse, complex, and evolving. Our expanded approach goes beyond traditional models to offer a more inclusive, nuanced understanding of how people connect and feel loved.
             </label>
           </div>
@@ -177,10 +177,10 @@ const LandingPage = () => {
             alt="Evolution Mobile 2"
             width={269}
             height={414}
-            className="opacity-90 block md:hidden absolute left-[-16px] -z-10"
+            className="opacity-90 block md:hidden absolute left-[-16px] z-10"
             style={{ top: 'calc(75% - 208px)' }}
           />
-          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px]">
+          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px] z-20">
             <Image
               src="/images/love.svg"
               alt="Heart Icon"
@@ -188,14 +188,14 @@ const LandingPage = () => {
               height={56}
               className="w-[48px] h-[48px] md:w-[56px] md:h-[56px] mb-[12px] md:mb-[20px]"
             />
-            <label className="block font-raleway font-bold text-[#0E2432] text-[22px] md:text-[26px] leading-[26px] md:leading-[30px] mb-[12px] z-10">
+            <label className="block font-raleway font-bold text-[#0E2432] text-[22px] md:text-[26px] leading-[26px] md:leading-[30px] mb-[12px]">
               A New, Deeper Way to Understand Love
             </label>
-            <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
+            <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]">
               Our <span className="font-sans">7</span> Love Styles Test goes beyond traditional models, filling in the gaps left by the original approach. This comprehensive test embraces emotional, intellectual, and physical dimensions of love, offering a richer, more complete picture of how people connect and express affection.
             </label>
           </div>
-          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px]">
+          <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px] z-20">
             <Image
               src="/images/spectrum.svg"
               alt="Heart Icon"
