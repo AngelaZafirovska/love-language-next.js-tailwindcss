@@ -1,7 +1,8 @@
+import Image from "next/image";
 import React from "react";
 import Logo from "./components/Logo";
 import LoginButton from "./components/LoginButton";
-import Image from "next/image";
+import Footer from './components/GFooter';
 
 const LandingPage = () => {
   return (
@@ -114,7 +115,7 @@ const LandingPage = () => {
           />
         </div>
       </div>
-      <div className="evolution-section relative w-full m-0 p-0 px-[16px] md:py-[80px] md:px-[82px]">
+      <div className="evolution-section relative w-full m-0 p-0 px-[16px] md:py-[80px] md:px-[82px] mb-[60px] md:mb-[0px]">
         {/* Background Image Layer */}
         <div className="absolute inset-0 flex justify-center items-center -z-10">
           <Image
@@ -123,7 +124,7 @@ const LandingPage = () => {
             width={944}
             height={873}
             className="opacity-90 hidden md:block mt-[172px]"
-            style={{ height: "calc(100% - 252px)" }} // Adjust this as necessary
+            style={{ height: "calc(100% - 252px)" }}
           />
         </div>
 
@@ -153,7 +154,7 @@ const LandingPage = () => {
               The Origins of Love Languages
             </label>
             <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
-              Over 30 years ago, Dr. Gary Chapman introduced the '5 Love Languages' test, helping millions improve their relationships. However, this concept originated in the 1980s and is now viewed as limited by some, primarily catering to married, heterosexual, Christian couples.
+              Over 30 years ago, Dr. Gary Chapman introduced the '<span className="font-sans">5</span> Love Languages' test, helping millions improve their relationships. However, this concept originated in the <span className="font-sans">1980</span>s and is now viewed as limited by some, primarily catering to married, heterosexual, Christian couples.
             </label>
           </div>
           <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px]">
@@ -168,7 +169,7 @@ const LandingPage = () => {
               Limitations of the Original Love Languages
             </label>
             <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
-              The original 5 Love Languages were created for a specific demographic and time. But relationships today are diverse, complex, and evolving. Our expanded approach goes beyond traditional models to offer a more inclusive, nuanced understanding of how people connect and feel loved.
+              The original <span className="font-sans">5</span> Love Languages were created for a specific demographic and time. But relationships today are diverse, complex, and evolving. Our expanded approach goes beyond traditional models to offer a more inclusive, nuanced understanding of how people connect and feel loved.
             </label>
           </div>
           <Image
@@ -191,7 +192,7 @@ const LandingPage = () => {
               A New, Deeper Way to Understand Love
             </label>
             <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
-              Our 7 Love Styles Test goes beyond traditional models, filling in the gaps left by the original approach. This comprehensive test embraces emotional, intellectual, and physical dimensions of love, offering a richer, more complete picture of how people connect and express affection.
+              Our <span className="font-sans">7</span> Love Styles Test goes beyond traditional models, filling in the gaps left by the original approach. This comprehensive test embraces emotional, intellectual, and physical dimensions of love, offering a richer, more complete picture of how people connect and express affection.
             </label>
           </div>
           <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px]">
@@ -206,11 +207,12 @@ const LandingPage = () => {
               Capturing Full Spectrum of Love Languages
             </label>
             <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
-              Our model builds on the foundation of the 5 Love Languages, expanding it to reflect the diverse ways love is shared in today’s world. This test provides personalized insights, helping you understand how you and others experience and express love across a wider range of dimensions.
+              Our model builds on the foundation of the <span className="font-sans">5</span> Love Languages, expanding it to reflect the diverse ways love is shared in today’s world. This test provides personalized insights, helping you understand how you and others experience and express love across a wider range of dimensions.
             </label>
           </div>
         </div>
       </div>
+      <Footer />
     </>
 );
 };
