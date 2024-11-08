@@ -7,7 +7,7 @@ import Footer from './components/GFooter';
 const LandingPage = () => {
   return (
     <>
-      <div className="hero-section relative w-full m-0 p-0">
+      <div className="hero-section relative w-full m-0 p-0 bg-white md:pb-[75px]">
         <div className="relative z-0">
           <Image
             src="/images/gradient-desktop.svg"
@@ -91,7 +91,7 @@ const LandingPage = () => {
               </label>
             </div>
           </div>
-          <div className="relative w-full z-20 flex items-center md:mb-[75px]">
+          <div className="relative w-full z-20 flex items-center">
             <div className="absolute inset-x-0 -bottom-[5px] w-full md:w-[300px] h-[30%] rounded-full bg-[#37aef3] blur-[20px] opacity-100"></div>
             <button className="font-switzer font-semibold shadow-[0px_1px_1px_rgba(35,_123,_255,_0.7)] w-full md:w-[300px] bg-[#5DC4FF] rounded-[10px] flex items-center justify-center px-[40px] py-[20px] tracking-[0.03em] text-white leading-[24px] text-[16px] md:text-[20px] relative z-10">
               Take the Test
@@ -115,7 +115,7 @@ const LandingPage = () => {
           />
         </div>
       </div>
-      <div className="evolution-section relative w-full m-0 p-0 px-[16px] md:py-[80px] md:px-[82px] mb-[60px] md:mb-[0px]">
+      <div className="evolution-section relative w-full m-0 p-0 bg-white px-[16px] md:py-[80px] md:px-[82px] mb-[60px] md:mb-[0px]">
         {/* Background Image Layer */}
         <div className="absolute inset-0 flex justify-center items-center -z-10">
           <Image
