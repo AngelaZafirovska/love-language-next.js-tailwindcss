@@ -2,11 +2,17 @@
 module.exports = {
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx}",
-    "./src/app/pages/**/*.{js,ts,jsx,tsx}",
     "./src/app/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        raleway: ['Raleway', 'sans-serif'],
+        switzer: ['Switzer', 'sans-serif'],
+      },
+      spacing: {
+      },
+    },
   },
   plugins: [],
 };
