@@ -154,7 +154,7 @@ const LandingPage = () => {
               The Origins of Love Languages
             </label>
             <label className="block font-raleway font-medium text-[#828E98] text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] z-10">
-              Over 30 years ago, Dr. Gary Chapman introduced the '<span className="font-sans">5</span> Love Languages' test, helping millions improve their relationships. However, this concept originated in the <span className="font-sans">1980</span>s and is now viewed as limited by some, primarily catering to married, heterosexual, Christian couples.
+              Over 30 years ago, Dr. Gary Chapman introduced the &apos;<span className="font-sans">5</span> Love Languages&apos; test, helping millions improve their relationships. However, this concept originated in the <span className="font-sans">1980</span>s and is now viewed as limited by some, primarily catering to married, heterosexual, Christian couples.
             </label>
           </div>
           <div className="box-content p-5 md:p-6 bg-white border-l-4 border-[#5DC4FF] shadow-[0px_4px_12px_rgba(0,_80,_105,_0.08)] rounded-[12px]">
