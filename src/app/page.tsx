@@ -10,7 +10,7 @@ const LandingPage = () => {
       <div className="hero-section relative w-full m-0 p-0 bg-white md:pb-[75px]">
         <div className="relative z-0">
           <Image
-            src="/images/gradient-desktop.png"
+            src="/images/gradient-desktop.svg"
             alt="Desktop Gradient"
             width={890}
             height={830}
@@ -120,7 +120,7 @@ const LandingPage = () => {
         {/* Background Image Layer */}
         <div className="absolute inset-0 flex justify-center items-center z-10">
           <Image
-            src="/images/evolution-desktop.png"
+            src="/images/evolution-desktop.svg"
             alt="Desktop Gradient"
             width={944}
             height={873}
